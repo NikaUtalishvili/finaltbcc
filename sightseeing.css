@@ -1,0 +1,96 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for screens less than or equal to 600px wide */
+    /* Adjustments for smaller screens */
+  }
+  
+body {
+    margin: 0;
+    background-color: #e4d4bf; /* Use a light, warm background color for an old city feel */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4d4d4d; /* Dark background for the navigation bar */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* White color for the navigation links */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  .sightseeing-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .text, .text1, .text2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4d4d4d;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
+  
+  .text1 {
+    font-size: 28px;
+  }
+  
+  .text2 {
+    font-size: 20px;
+  }
+  
+  .fotoebi, .fotoebi2, .muzeumi-gate {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .maasi, .chadari, .dzegli, .saxli, .muzeumi, .gate {
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+  }
+  
+  .maasi:hover, .chadari:hover, .dzegli:hover, .saxli:hover, .muzeumi:hover, .gate:hover {
+    width: 320px;
+    height: 220px;
+  }
+  
+  .agwera-info {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .agwera, .agwera3, .agwera5, .agwera7, .agwera9, .agwera11 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #343232;
+    font-size: 19px;
+  }
+  
+  .agwera2, .agwera4, .agwera6, .agwera8, .agwera10, .agwera12 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #636060;
+    font-size: 16px;
+  }
+  .maisi {
+    width: 300px;
+    height: 200px;
+  }

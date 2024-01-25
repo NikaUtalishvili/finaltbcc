@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #f0e6d2; /* Use a light, warm background color for an old city feel */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Dark background for the navigation bar */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* White color for the navigation links */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  .main-content {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 

@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for screens less than or equal to 600px wide */
+    /* Adjustments for smaller screens */
+  }
+  
+body {
+    margin: 0;
+    background-color: #e4d4bf; /* Use a light, warm background color for an old city feel */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4d4d4d; /* Dark background for the navigation bar */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* White color for the navigation links */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  .history-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .img2, .dzegli, .patarakaxi {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transition: 1s;
+    margin: 20px;
+  }
+  
+  .img2:hover, .dzegli:hover, .patarakaxi:hover {
+    width: 420px;
+    height: 420px;
+  }
+  
+  .text2, .erekle, .text4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4d4d4d;
+    margin: 20px;
+  }
+  

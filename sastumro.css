@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for screens less than or equal to 600px wide */
+    /* Adjustments for smaller screens */
+  }
+  
+body {
+    margin: 0;
+    background-color: #e4d4bf; /* Use a light, warm background color for an old city feel */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4d4d4d; /* Dark background for the navigation bar */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* White color for the navigation links */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+  
+  .hotel-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .hotel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .holidai, .leki, .kviria {
+    width: 400px;
+    height: 270px;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .holidai:hover, .leki:hover, .kviria:hover {
+    width: 430px;
+    height: 300px;
+  }
+  
+  .text1, .text4, .text7 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #636060;
+    margin-top: 20px;
+  }
+  
+  .text2, .text5, .text8 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #636060;
+    margin-top: 10px;
+  }
+  
+  .text3, .text6, .text9 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #636060;
+    margin-top: 10px;
+  }
